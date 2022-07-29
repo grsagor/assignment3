@@ -1,11 +1,14 @@
 /* google fonts linked */
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@200;300&family=Dancing+Script&family=Lobster&family=Poppins:wght@400;500&family=Roboto&family=Rubik+Moonrocks&display=swap');
 
-.fixing-top{
+.position{
     position: relative;
-    top: 65px;
+    top: 60px;
 }
 
+.main-body{
+    margin-top: 100px;
+}
 .img-brightness{
     filter: brightness(50%);
 }
