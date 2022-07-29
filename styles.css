@@ -1,6 +1,13 @@
 /* google fonts linked */
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@200;300&family=Dancing+Script&family=Lobster&family=Poppins:wght@400;500&family=Roboto&family=Rubik+Moonrocks&display=swap');
 
+.img-brightness{
+    filter: brightness(50%);
+}
+
+.customize-button{
+    background-color: white !important;
+}
 .privacy-terms a{
     text-decoration: none;
     color: white;
@@ -8,4 +15,17 @@
 
 .change-font{
     font-family: 'Montserrat', sans-serif;;
+}
+
+.hover-effect:hover{
+    background-color: rgb(13,110,253);
+    color: white;
+    border-radius: 10px;
+}
+
+.hover-effect:hover .after-hover{
+    color: rgb(13,110,253)!important;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
